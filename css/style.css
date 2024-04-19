@@ -1,0 +1,244 @@
+body{
+    font-family: 'Montserrat, sans-serif';
+    margin: auto;
+}
+
+
+h1{
+    font-family: 'Montserrat-Black, sans-serif';
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    font-weight: 900;
+
+}
+
+h2{
+    font-family: 'Montserrat-Bold';
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3{
+    font-family: 'Montserrat-Bold';
+}
+
+#title{
+    background-color: #f8a501;
+    color: #fff;
+}
+
+.icon-aurora{
+    background-color: #f8a501;
+    width: 100px;
+    height: 100px;
+}
+
+.container-fluid{
+    padding: 0% 10%;
+    background-color: #f8a501;
+}
+
+.menu-text{
+    padding-bottom: 15px;
+}
+
+/*Navigation Bar*/
+
+.navbar{
+    padding-bottom: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: black;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.4rem;
+    font-family:'Montserrat';
+}
+
+.col-lg-6{
+    padding-top: 1.5%;
+    padding-right: 19.5%;
+}
+
+
+/*Title-Image*/
+
+.img-bebida{
+    width: 484px;
+    height: 252px;
+    border: solid black;
+    border-radius: 5%;
+    -webkit-box-shadow: 0 12px 8px -8px black;
+    -moz-box-shadow: 0 12px 8px -8px black;
+    box-shadow: 0 12px 8px -8px black;
+    background-color: #fff;
+}
+
+/*Products Section*/
+
+#products{
+    padding: 7% 15%;
+}
+
+.beb-text{
+    font-family: 'Montserrat-Bold';
+}
+
+.bebidas{
+    
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top:50px;
+
+}
+
+.bebida-1{
+    width: 200px;
+    height: 220px;
+    border-radius: 10%;
+    align-items: center;
+    text-align: center;
+    transition: .2s;
+    padding-top: 10px;
+    background-color: #f8a501;
+    -webkit-box-shadow: 0 12px 8px -8px black;
+    -moz-box-shadow: 0 12px 8px -8px black;
+    box-shadow: 0 12px 8px -8px black;
+}
+.beb1-img{
+    width: 170px;
+    height: 170px;
+    background-color: #fff;
+    border-radius: 10%;
+    padding: 5px 0 5px 0;
+    
+}
+.bebida-1:hover{
+    background-color: #ffb92e;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #ffc144;
+}
+
+.bebida-2{
+    width: 200px;
+    height: 220px;
+    border-radius: 10%;
+    align-items: center;
+    text-align: center;
+    transition: .2s;
+    padding-top: 10px;
+    background-color: #f8a501;
+    box-shadow: 0 12px 8px -8px black;
+
+}
+.beb2-img{
+    width: 170px;
+    height: 170px;
+    background-color: #fff;
+    border-radius: 10%;
+    padding: 5px 0 5px 0;
+}
+.bebida-2:hover{
+    background-color: #ffb92e;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #ffc144;
+}
+
+.bebida-3{
+    width: 200px;
+    height: 220px;
+    border-radius: 10%;
+    align-items: center;
+    text-align: center;
+    transition: .2s;
+    padding-top: 10px;
+    background-color: #f8a501;
+    box-shadow: 0 12px 8px -8px black;
+
+}
+.beb3-img{
+    width: 170px;
+    height: 170px;
+    background-color: #fff;
+    border-radius: 10%;
+    padding: 5px 0 5px 0;
+}
+.bebida-3:hover{
+    background-color: #ffb92e;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #ffc144;
+}
+
+.bebida-4{
+    width: 200px;
+    height: 220px;
+    border-radius: 10%;
+    align-items: center;
+    text-align: center;
+    transition: .2s;
+    padding-top: 10px;
+    background-color: #f8a501;
+    box-shadow: 0 12px 8px -8px black;
+}
+.beb4-img{
+    width: 170px;
+    height: 170px;
+    background-color: #fff;
+    border-radius: 10%;
+    padding: 5px 0 5px 0;
+}
+.bebida-4:hover{
+    background-color: #ffb92e;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #ffc144;
+}
+
+
+/*About Section*/
+
+.about{
+    padding: 6% 35% 2% 35%;
+    text-align: center;
+    background-color: #ffb92e;
+}
+
+
+#image{
+    background-color: #ffb92e;
+    align-items: center;
+    text-align: center;
+}
+.img-aurora{
+    width: 350px;
+    height: 350px;
+    margin: 20px;
+}
+
+.button-prev{
+    margin-left:200px;
+}
+.button-next{
+    margin-right:200px;
+}
+
+/*Contact Section*/
+
+.contact{
+    background-color: black;
+    color: #fff;
+    padding: 50px 100px;
+}
+.contact-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
